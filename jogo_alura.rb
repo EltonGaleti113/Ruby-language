@@ -1,40 +1,32 @@
-#* 
-#!
-#TODO
-#? 
-#//
-puts "********************************************"
-puts "*Olá seja bem vindo ao jogo da adivinhação!*"
-puts "********************************************"
+#
+puts '********************************************'
+puts '*Olá seja bem vindo ao jogo da adivinhação!*'
+puts '********************************************'
 
 def boas_vindas
-	puts "Qual seu nome?"
-	nome = gets.chomp
-	puts "Começaremos o jogo " + nome
-	return
+  puts 'Qual seu nome?'
+  nome = gets.chomp
+  puts "Começaremos o jogo #{nome}"
 end
 
 def sorteia_numero_secreto
-	sorteado = 150
-	sorteado
+sorteado = 150
+sorteado
 end
 
 def pede_um_numero(tentativa, limite_de_tentativas)
-	puts "\n\n"
-		puts "tentativa " + tentativa.to_s + " de " + limite_de_tentativas.to_s
-			puts "\n"
-		puts "Entre com o numero"
-			puts "\n"
-		chute = gets	
-		puts "Seu chute foi: " << chute
-		chute
+  puts "\n\n"
+  puts "tentativa " + tentativa.to_s + " de " + limite_de_tentativas.to_s
+  puts "\n"
+  puts "Entre com o numero"
+  puts "\n"
+  chute = gets
+  puts 'Seu chute foi: ' << chute
+  chute
 end
 
-
 def verifica_se_acertou(numero_secreto, chute)
-		acertou = numero_secreto == chute.to_i
-		
-		
+acertou = numero_secreto == chute.to_i
 
 	if acertou
 		puts "ACERTOU!"
@@ -49,8 +41,7 @@ def verifica_se_acertou(numero_secreto, chute)
 				puts "\n\n"
 		end
 	end	
-	return false
-	
+	return false	
 end
 
 
