@@ -81,16 +81,16 @@ loop do
         when codigo == 1
           todos_contatos
 
-        when codigo ==2
+        when codigo == 2
           adicionar_contatos
 
-        when codigo ==3
+        when codigo == 3
           procurar_contato
 
-				when codigo ==4
+				when codigo == 4
 					editar_contato
 
-				when codigo ==5
+				when codigo == 5
 					remover_contato
 			end
 		end
