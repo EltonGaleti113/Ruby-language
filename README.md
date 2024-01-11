@@ -1,4 +1,5 @@
 PT-Br:
+
 Olá Este repositório é meu repositório de treino, da linguagem Ruby.
 
 A pasta Ruby_Poo são estudos diretamente voltados para programação Orientada a Objetos
@@ -10,4 +11,13 @@ A pasta Ruby_Poo são estudos diretamente voltados para programação Orientada 
 💎 saudcoes.rb 💎 é o código que nós aprendemos no tutorial do blog do Ruby
 
 En:
-Hello this is my repository in ruby language
+
+Hello! This repository is my training repository for the Ruby language.
+
+The Ruby_Poo folder contains studies directly focused on Object-Oriented Programming.
+
+💎 hello.rb 💎 The hello.rb project (work in progress) says "Hello" using classes and methods, with conditions and a loop.
+
+💎 agenda.rb 💎 The agenda.rb project is a CRUD system for creating, reading, updating, and deleting elements (contacts) manually.
+
+💎 saudacoes.rb 💎 is the code we learned in the Ruby blog tutorial.
